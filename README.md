@@ -132,8 +132,8 @@ truncated); **completion-only loss** (prompt tokens masked); fp16 on a single Ka
 
 **Curves & selection** (`finetuning/results/`): val loss `0.6015 → 0.5691 → 0.5662` — it
 plateaus after epoch 2 (Δ −0.032 then −0.003). We keep **every** epoch's adapter and pick
-the checkpoint by **task metrics from the judge**, not just loss (a two-tier scheme: loss
-decides *when* to stop, judge decides *what to ship*). Epoch 3 won on every metric.
+the checkpoint by **task metrics from the judge**, not just loss (a two-tier scheme: validation loss for
+ *when* to stop, llm-as-a-judge for *what to ship*). Epoch 3 won on every metric.
 
 **Why `max_epochs = 3`?** Val loss had largely plateaued by epoch 2–3, so more epochs
 mainly risk overfitting the templated style. Practically: on the free T4 each epoch took
@@ -147,7 +147,7 @@ trade-off, documented rather than hidden.
 **What "better" means here:** an LLM judge (**Claude Opus 5**, structured JSON rubric v2)
 scores each answer on issue-understanding, correctness, resolution-quality, support-tone
 (1–5) and a hallucination flag, given the customer message and the dataset reference. The
-rubric was iterated (v2) to reduce halo effects and to reward *grounded* answers.
+rubric was iterated (v2) to reduce the dependency between the metrics and to reward *grounded* answers.
 
 **Two evaluations, deliberately different fidelities:**
 1. **Checkpoint selection** — fp16, on the 135-item val benchmark, matched `base_fp16`
