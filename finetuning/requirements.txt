@@ -1,0 +1,6 @@
+# Training deps (Kaggle already ships a compatible torch + CUDA).
+transformers>=4.51.0     # Qwen3 architecture support
+peft>=0.13.0
+accelerate>=1.0.0
+datasets>=3.0.0
+bitsandbytes>=0.44.0     # only needed if USE_QLORA=True

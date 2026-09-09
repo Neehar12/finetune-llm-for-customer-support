@@ -1,0 +1,45 @@
+{
+  "base_fp16": {
+    "resolution": 3.193,
+    "correctness": 3.667,
+    "understanding": 4.059,
+    "support": 3.904,
+    "hallucination": 0.3852,
+    "experiment": "qwen3-1.7b-lora-base-fp16-judge-v2",
+    "epoch": "base",
+    "eval_loss": null
+  },
+  "rows": [
+    {
+      "resolution": 4.185,
+      "correctness": 4.6,
+      "understanding": 4.859,
+      "support": 4.622,
+      "hallucination": 0.1111,
+      "experiment": "qwen3-1.7b-lora-epoch1-judge-v2",
+      "epoch": 1,
+      "eval_loss": 0.601469874382019
+    },
+    {
+      "resolution": 4.274,
+      "correctness": 4.63,
+      "understanding": 4.852,
+      "support": 4.593,
+      "hallucination": 0.0889,
+      "experiment": "qwen3-1.7b-lora-epoch2-judge-v2",
+      "epoch": 2,
+      "eval_loss": 0.5690724849700928
+    },
+    {
+      "resolution": 4.333,
+      "correctness": 4.674,
+      "understanding": 4.881,
+      "support": 4.667,
+      "hallucination": 0.0815,
+      "experiment": "qwen3-1.7b-lora-epoch3-judge-v2",
+      "epoch": 3,
+      "eval_loss": 0.5662230253219604
+    }
+  ],
+  "selected_epoch": 3
+}

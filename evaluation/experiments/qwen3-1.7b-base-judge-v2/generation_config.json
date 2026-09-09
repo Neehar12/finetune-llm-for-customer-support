@@ -1,0 +1,14 @@
+{
+  "model_id": "qwen3-1.7b-base",
+  "model_tag": "qwen3:1.7b",
+  "num_items": 135,
+  "benchmark": "evaluation/data/benchmark/val_benchmark.jsonl",
+  "system_prompt": "You are a customer support assistant for an online business. A customer has sent you a message. Respond directly to the customer in a helpful, professional, and empathetic tone. Understand what they need, give accurate information, and clearly explain any steps required to resolve their request. Keep the response focused and concise.",
+  "think": false,
+  "gen_options": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "seed": 42,
+    "num_predict": 512
+  }
+}
