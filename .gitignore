@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# virtual envs
+.venv/
+venv/
+env/
+
+# local model artifacts (hosted on HF Hub instead; regenerable)
+*.gguf
+*.safetensors
+outputs/
+checkpoints/
+
+# scratch
+*.log
+.env

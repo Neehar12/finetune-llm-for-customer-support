@@ -1,0 +1,51 @@
+{
+  "base_model": "Qwen/Qwen3-1.7B",
+  "method": "lora",
+  "seed": 42,
+  "max_epochs": 3,
+  "early_stop_patience": 2,
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "max_seq_len": 1024,
+  "learning_rate": 0.0002,
+  "effective_batch": 32,
+  "best_by_loss_checkpoint": "/kaggle/working/outputs/checkpoints/checkpoint-2361",
+  "epochs": [
+    {
+      "epoch": 1,
+      "checkpoint_dir": "/kaggle/working/outputs/checkpoints/checkpoint-787",
+      "train_loss": 0.5509562492370605,
+      "eval_loss": 0.601469874382019,
+      "generations": "/kaggle/working/outputs/epoch_1/generations.jsonl"
+    },
+    {
+      "epoch": 2,
+      "checkpoint_dir": "/kaggle/working/outputs/checkpoints/checkpoint-1574",
+      "train_loss": 0.5057140350341797,
+      "eval_loss": 0.5690724849700928,
+      "generations": "/kaggle/working/outputs/epoch_2/generations.jsonl"
+    },
+    {
+      "epoch": 3,
+      "checkpoint_dir": "/kaggle/working/outputs/checkpoints/checkpoint-2361",
+      "train_loss": 0.5035772323608398,
+      "eval_loss": 0.5662230253219604,
+      "generations": "/kaggle/working/outputs/epoch_3/generations.jsonl"
+    }
+  ],
+  "base_fp16": {
+    "generations": "/kaggle/working/outputs/base_fp16/generations.jsonl"
+  }
+}

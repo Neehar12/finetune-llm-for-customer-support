@@ -1,0 +1,318 @@
+{
+  "model_id": "qwen3-1.7b-lora-epoch3-judge-v2",
+  "judge_model": "claude-opus-5",
+  "issue_understanding_mean": 4.881,
+  "correctness_mean": 4.674,
+  "resolution_quality_mean": 4.333,
+  "support_quality_mean": 4.667,
+  "hallucination_rate": 0.0815,
+  "num_evaluated": 135,
+  "per_category": {
+    "ACCOUNT": {
+      "issue_understanding_mean": 4.8,
+      "correctness_mean": 4.833,
+      "resolution_quality_mean": 4.4,
+      "support_quality_mean": 4.667,
+      "hallucination_rate": 0.0333,
+      "num_evaluated": 30
+    },
+    "CANCEL": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 4.4,
+      "resolution_quality_mean": 3.8,
+      "support_quality_mean": 4.4,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "CONTACT": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 4.7,
+      "resolution_quality_mean": 4.5,
+      "support_quality_mean": 4.8,
+      "hallucination_rate": 0.1,
+      "num_evaluated": 10
+    },
+    "DELIVERY": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 4.9,
+      "resolution_quality_mean": 4.9,
+      "support_quality_mean": 4.9,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 10
+    },
+    "FEEDBACK": {
+      "issue_understanding_mean": 4.9,
+      "correctness_mean": 4.9,
+      "resolution_quality_mean": 4.0,
+      "support_quality_mean": 4.7,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 10
+    },
+    "INVOICE": {
+      "issue_understanding_mean": 4.7,
+      "correctness_mean": 4.2,
+      "resolution_quality_mean": 4.0,
+      "support_quality_mean": 4.2,
+      "hallucination_rate": 0.2,
+      "num_evaluated": 10
+    },
+    "ORDER": {
+      "issue_understanding_mean": 4.9,
+      "correctness_mean": 4.6,
+      "resolution_quality_mean": 4.35,
+      "support_quality_mean": 4.75,
+      "hallucination_rate": 0.05,
+      "num_evaluated": 20
+    },
+    "PAYMENT": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 4.6,
+      "resolution_quality_mean": 4.5,
+      "support_quality_mean": 4.8,
+      "hallucination_rate": 0.1,
+      "num_evaluated": 10
+    },
+    "REFUND": {
+      "issue_understanding_mean": 4.8,
+      "correctness_mean": 4.533,
+      "resolution_quality_mean": 4.0,
+      "support_quality_mean": 4.4,
+      "hallucination_rate": 0.2,
+      "num_evaluated": 15
+    },
+    "SHIPPING": {
+      "issue_understanding_mean": 4.9,
+      "correctness_mean": 4.9,
+      "resolution_quality_mean": 4.6,
+      "support_quality_mean": 4.9,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 10
+    },
+    "SUBSCRIPTION": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 4.4,
+      "resolution_quality_mean": 4.4,
+      "support_quality_mean": 4.8,
+      "hallucination_rate": 0.4,
+      "num_evaluated": 5
+    }
+  },
+  "per_intent": {
+    "cancel_order": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 4.8,
+      "resolution_quality_mean": 4.8,
+      "support_quality_mean": 5.0,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "change_order": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 5.0,
+      "resolution_quality_mean": 4.6,
+      "support_quality_mean": 5.0,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "change_shipping_address": {
+      "issue_understanding_mean": 4.8,
+      "correctness_mean": 4.8,
+      "resolution_quality_mean": 4.2,
+      "support_quality_mean": 4.8,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "check_cancellation_fee": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 4.4,
+      "resolution_quality_mean": 3.8,
+      "support_quality_mean": 4.4,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "check_invoice": {
+      "issue_understanding_mean": 4.8,
+      "correctness_mean": 4.8,
+      "resolution_quality_mean": 4.4,
+      "support_quality_mean": 4.6,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "check_payment_methods": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 4.2,
+      "resolution_quality_mean": 4.8,
+      "support_quality_mean": 4.8,
+      "hallucination_rate": 0.2,
+      "num_evaluated": 5
+    },
+    "check_refund_policy": {
+      "issue_understanding_mean": 4.8,
+      "correctness_mean": 4.6,
+      "resolution_quality_mean": 4.0,
+      "support_quality_mean": 4.6,
+      "hallucination_rate": 0.2,
+      "num_evaluated": 5
+    },
+    "complaint": {
+      "issue_understanding_mean": 4.8,
+      "correctness_mean": 4.8,
+      "resolution_quality_mean": 3.6,
+      "support_quality_mean": 4.4,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "contact_customer_service": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 5.0,
+      "resolution_quality_mean": 5.0,
+      "support_quality_mean": 5.0,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "contact_human_agent": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 4.4,
+      "resolution_quality_mean": 4.0,
+      "support_quality_mean": 4.6,
+      "hallucination_rate": 0.2,
+      "num_evaluated": 5
+    },
+    "create_account": {
+      "issue_understanding_mean": 4.8,
+      "correctness_mean": 5.0,
+      "resolution_quality_mean": 4.4,
+      "support_quality_mean": 4.6,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "delete_account": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 4.8,
+      "resolution_quality_mean": 4.4,
+      "support_quality_mean": 5.0,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "delivery_options": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 4.8,
+      "resolution_quality_mean": 4.8,
+      "support_quality_mean": 4.8,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "delivery_period": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 5.0,
+      "resolution_quality_mean": 5.0,
+      "support_quality_mean": 5.0,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "edit_account": {
+      "issue_understanding_mean": 4.4,
+      "correctness_mean": 4.6,
+      "resolution_quality_mean": 3.8,
+      "support_quality_mean": 4.0,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "get_invoice": {
+      "issue_understanding_mean": 4.6,
+      "correctness_mean": 3.6,
+      "resolution_quality_mean": 3.6,
+      "support_quality_mean": 3.8,
+      "hallucination_rate": 0.4,
+      "num_evaluated": 5
+    },
+    "get_refund": {
+      "issue_understanding_mean": 4.6,
+      "correctness_mean": 4.2,
+      "resolution_quality_mean": 3.6,
+      "support_quality_mean": 4.4,
+      "hallucination_rate": 0.4,
+      "num_evaluated": 5
+    },
+    "newsletter_subscription": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 4.4,
+      "resolution_quality_mean": 4.4,
+      "support_quality_mean": 4.8,
+      "hallucination_rate": 0.4,
+      "num_evaluated": 5
+    },
+    "payment_issue": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 5.0,
+      "resolution_quality_mean": 4.2,
+      "support_quality_mean": 4.8,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "place_order": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 4.8,
+      "resolution_quality_mean": 4.8,
+      "support_quality_mean": 4.8,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "recover_password": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 5.0,
+      "resolution_quality_mean": 5.0,
+      "support_quality_mean": 4.8,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "registration_problems": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 5.0,
+      "resolution_quality_mean": 4.2,
+      "support_quality_mean": 5.0,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "review": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 5.0,
+      "resolution_quality_mean": 4.4,
+      "support_quality_mean": 5.0,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "set_up_shipping_address": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 5.0,
+      "resolution_quality_mean": 5.0,
+      "support_quality_mean": 5.0,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    },
+    "switch_account": {
+      "issue_understanding_mean": 4.6,
+      "correctness_mean": 4.6,
+      "resolution_quality_mean": 4.6,
+      "support_quality_mean": 4.6,
+      "hallucination_rate": 0.2,
+      "num_evaluated": 5
+    },
+    "track_order": {
+      "issue_understanding_mean": 4.6,
+      "correctness_mean": 3.8,
+      "resolution_quality_mean": 3.2,
+      "support_quality_mean": 4.2,
+      "hallucination_rate": 0.2,
+      "num_evaluated": 5
+    },
+    "track_refund": {
+      "issue_understanding_mean": 5.0,
+      "correctness_mean": 4.8,
+      "resolution_quality_mean": 4.4,
+      "support_quality_mean": 4.2,
+      "hallucination_rate": 0.0,
+      "num_evaluated": 5
+    }
+  }
+}

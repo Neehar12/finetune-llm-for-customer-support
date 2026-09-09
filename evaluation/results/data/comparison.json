@@ -1,0 +1,207 @@
+{
+  "overall": {
+    "base": {
+      "resolution_quality": 3.259,
+      "correctness": 3.628,
+      "issue_understanding": 4.107,
+      "support_quality": 3.865,
+      "hallucination_rate": 0.3973
+    },
+    "tuned": {
+      "resolution_quality": 4.159,
+      "correctness": 4.567,
+      "issue_understanding": 4.862,
+      "support_quality": 4.599,
+      "hallucination_rate": 0.1173
+    }
+  },
+  "per_category": {
+    "ACCOUNT": {
+      "base": {
+        "resolution_quality": 3.407,
+        "correctness": 3.776,
+        "issue_understanding": 4.15,
+        "support_quality": 3.931,
+        "hallucination_rate": 0.3618
+      },
+      "tuned": {
+        "resolution_quality": 4.215,
+        "correctness": 4.659,
+        "issue_understanding": 4.886,
+        "support_quality": 4.528,
+        "hallucination_rate": 0.0813
+      },
+      "n": 246
+    },
+    "CANCEL": {
+      "base": {
+        "resolution_quality": 3.278,
+        "correctness": 3.639,
+        "issue_understanding": 4.083,
+        "support_quality": 3.917,
+        "hallucination_rate": 0.3333
+      },
+      "tuned": {
+        "resolution_quality": 3.5,
+        "correctness": 3.778,
+        "issue_understanding": 4.944,
+        "support_quality": 4.389,
+        "hallucination_rate": 0.3333
+      },
+      "n": 36
+    },
+    "CONTACT": {
+      "base": {
+        "resolution_quality": 2.561,
+        "correctness": 3.28,
+        "issue_understanding": 3.707,
+        "support_quality": 3.415,
+        "hallucination_rate": 0.2927
+      },
+      "tuned": {
+        "resolution_quality": 4.232,
+        "correctness": 4.573,
+        "issue_understanding": 4.902,
+        "support_quality": 4.427,
+        "hallucination_rate": 0.122
+      },
+      "n": 82
+    },
+    "DELIVERY": {
+      "base": {
+        "resolution_quality": 2.867,
+        "correctness": 2.893,
+        "issue_understanding": 3.827,
+        "support_quality": 3.853,
+        "hallucination_rate": 0.68
+      },
+      "tuned": {
+        "resolution_quality": 4.707,
+        "correctness": 4.693,
+        "issue_understanding": 4.973,
+        "support_quality": 4.773,
+        "hallucination_rate": 0.1067
+      },
+      "n": 75
+    },
+    "FEEDBACK": {
+      "base": {
+        "resolution_quality": 3.27,
+        "correctness": 3.685,
+        "issue_understanding": 4.101,
+        "support_quality": 3.73,
+        "hallucination_rate": 0.427
+      },
+      "tuned": {
+        "resolution_quality": 3.618,
+        "correctness": 4.281,
+        "issue_understanding": 4.674,
+        "support_quality": 4.506,
+        "hallucination_rate": 0.236
+      },
+      "n": 89
+    },
+    "INVOICE": {
+      "base": {
+        "resolution_quality": 3.309,
+        "correctness": 3.617,
+        "issue_understanding": 3.963,
+        "support_quality": 3.852,
+        "hallucination_rate": 0.4321
+      },
+      "tuned": {
+        "resolution_quality": 3.716,
+        "correctness": 4.432,
+        "issue_understanding": 4.593,
+        "support_quality": 4.259,
+        "hallucination_rate": 0.1728
+      },
+      "n": 81
+    },
+    "ORDER": {
+      "base": {
+        "resolution_quality": 3.267,
+        "correctness": 3.702,
+        "issue_understanding": 4.168,
+        "support_quality": 3.901,
+        "hallucination_rate": 0.2919
+      },
+      "tuned": {
+        "resolution_quality": 4.292,
+        "correctness": 4.578,
+        "issue_understanding": 4.876,
+        "support_quality": 4.652,
+        "hallucination_rate": 0.0807
+      },
+      "n": 161
+    },
+    "PAYMENT": {
+      "base": {
+        "resolution_quality": 3.576,
+        "correctness": 4.061,
+        "issue_understanding": 4.343,
+        "support_quality": 3.99,
+        "hallucination_rate": 0.303
+      },
+      "tuned": {
+        "resolution_quality": 4.202,
+        "correctness": 4.616,
+        "issue_understanding": 4.96,
+        "support_quality": 4.818,
+        "hallucination_rate": 0.1212
+      },
+      "n": 99
+    },
+    "REFUND": {
+      "base": {
+        "resolution_quality": 2.983,
+        "correctness": 3.322,
+        "issue_understanding": 3.949,
+        "support_quality": 3.729,
+        "hallucination_rate": 0.5085
+      },
+      "tuned": {
+        "resolution_quality": 4.186,
+        "correctness": 4.788,
+        "issue_understanding": 4.941,
+        "support_quality": 4.712,
+        "hallucination_rate": 0.0254
+      },
+      "n": 118
+    },
+    "SHIPPING": {
+      "base": {
+        "resolution_quality": 3.895,
+        "correctness": 4.145,
+        "issue_understanding": 4.566,
+        "support_quality": 4.342,
+        "hallucination_rate": 0.2368
+      },
+      "tuned": {
+        "resolution_quality": 4.421,
+        "correctness": 4.671,
+        "issue_understanding": 4.842,
+        "support_quality": 4.829,
+        "hallucination_rate": 0.0921
+      },
+      "n": 76
+    },
+    "SUBSCRIPTION": {
+      "base": {
+        "resolution_quality": 3.162,
+        "correctness": 3.216,
+        "issue_understanding": 4.297,
+        "support_quality": 3.73,
+        "hallucination_rate": 0.8919
+      },
+      "tuned": {
+        "resolution_quality": 4.108,
+        "correctness": 4.351,
+        "issue_understanding": 4.811,
+        "support_quality": 4.622,
+        "hallucination_rate": 0.2432
+      },
+      "n": 37
+    }
+  }
+}
